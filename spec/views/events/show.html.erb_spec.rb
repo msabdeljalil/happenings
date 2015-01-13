@@ -5,7 +5,7 @@ RSpec.describe "events/show", :type => :view do
     @event = assign(:event, Event.create!(
       :name => "Name",
       :runt_time => "Runt Time",
-      :description => "Description",
+      :description => "MyText",
       :venue_id => 1,
       :style => "Style",
       :price => "Price",
@@ -18,7 +18,7 @@ RSpec.describe "events/show", :type => :view do
     render
     expect(rendered).to match(/Name/)
     expect(rendered).to match(/Runt Time/)
-    expect(rendered).to match(/Description/)
+    expect(rendered).to match(/MyText/)
     expect(rendered).to match(/1/)
     expect(rendered).to match(/Style/)
     expect(rendered).to match(/Price/)

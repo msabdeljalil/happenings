@@ -1,0 +1,1500 @@
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/bcrypt-3.1.9/lib/bcrypt_ext.bundle: [BUG] Segmentation fault at 0x00000000000418
+ruby 2.1.3p242 (2014-09-19 revision 47630) [x86_64-darwin14.0]
+
+-- Crash Report log information --------------------------------------------
+   See Crash Report log file under the one of following:
+     * ~/Library/Logs/CrashReporter
+     * /Library/Logs/CrashReporter
+     * ~/Library/Logs/DiagnosticReports
+     * /Library/Logs/DiagnosticReports
+   for more details.
+
+-- Control frame information -----------------------------------------------
+c:0122 p:-17543552349068 s:0497 e:000496 TOP    [FINISH]
+c:0121 p:---- s:0495 e:000494 CFUNC  :require
+c:0120 p:0010 s:0491 e:000490 BLOCK  /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:247
+c:0119 p:0006 s:0489 e:000488 BLOCK  /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:230
+c:0118 p:0032 s:0487 e:000486 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:633
+c:0117 p:0048 s:0481 e:000480 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:230
+c:0116 p:0015 s:0476 e:000475 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:247
+c:0115 p:0020 s:0471 e:000470 RESCUE /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bcrypt-3.1.9/lib/bcrypt.rb:16
+c:0114 p:0073 s:0468 e:000467 TOP    /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bcrypt-3.1.9/lib/bcrypt.rb:12 [FINISH]
+c:0113 p:---- s:0466 e:000465 CFUNC  :require
+c:0112 p:0010 s:0462 e:000461 BLOCK  /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:247
+c:0111 p:0006 s:0460 e:000459 BLOCK  /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:230
+c:0110 p:0032 s:0458 e:000457 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:633
+c:0109 p:0048 s:0452 e:000451 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:230
+c:0108 p:0015 s:0447 e:000446 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:247
+c:0107 p:0015 s:0442 e:000441 TOP    /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/models/database_authenticatable.rb:2 [FINISH]
+c:0106 p:---- s:0440 e:000439 CFUNC  :const_get
+c:0105 p:0021 s:0436 e:000435 BLOCK  /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/models.rb:88 [FINISH]
+c:0104 p:---- s:0430 e:000429 CFUNC  :each
+c:0103 p:0025 s:0427 e:000426 BLOCK  /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/models.rb:87
+c:0102 p:0006 s:0425 e:000424 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/models.rb:114
+c:0101 p:0031 s:0422 e:000421 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/models.rb:84
+c:0100 p:0019 s:0416 e:000415 CLASS  /Users/mabdeljalil/Applications/level_up_exercises/happenings/hannenin/app/models/user.rb:4
+c:0099 p:0017 s:0414 e:000413 TOP    /Users/mabdeljalil/Applications/level_up_exercises/happenings/hannenin/app/models/user.rb:1 [FINISH]
+c:0098 p:---- s:0412 e:000411 CFUNC  :load
+c:0097 p:0015 s:0408 e:000407 BLOCK  /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:443
+c:0096 p:0032 s:0406 e:000405 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:633
+c:0095 p:0062 s:0400 e:000399 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:442
+c:0094 p:0147 s:0392 e:000391 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:342
+c:0093 p:0159 s:0384 e:000383 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:480
+c:0092 p:0034 s:0371 e:000370 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:180 [FINISH]
+c:0091 p:---- s:0366 e:000365 CFUNC  :const_get
+c:0090 p:0025 s:0362 e:000361 BLOCK  /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/inflector/methods.rb:238 [FINISH]
+c:0089 p:---- s:0357 e:000356 IFUNC 
+c:0088 p:---- s:0355 e:000354 CFUNC  :each
+c:0087 p:---- s:0353 e:000352 CFUNC  :inject
+c:0086 p:0069 s:0349 e:000348 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/inflector/methods.rb:236
+c:0085 p:0045 s:0344 e:000340 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:552
+c:0084 p:0015 s:0337 e:000336 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:583
+c:0083 p:0018 s:0333 e:000332 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise.rb:302
+c:0082 p:0009 s:0330 e:000329 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/mapping.rb:80
+c:0081 p:0021 s:0327 e:000326 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/mapping.rb:75
+c:0080 p:0028 s:0324 e:000322 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/mapping.rb:92
+c:0079 p:0074 s:0320 E:001548 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/mapping.rb:159
+c:0078 p:0216 s:0315 e:000314 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/mapping.rb:69 [FINISH]
+c:0077 p:---- s:0310 e:000309 CFUNC  :new
+c:0076 p:0019 s:0305 e:000304 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise.rb:336
+c:0075 p:0017 s:0299 e:000298 BLOCK  /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/rails/routes.rb:224 [FINISH]
+c:0074 p:---- s:0293 e:000292 CFUNC  :each
+c:0073 p:0329 s:0290 e:000289 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/rails/routes.rb:223
+c:0072 p:0009 s:0285 e:000284 BLOCK  /Users/mabdeljalil/Applications/level_up_exercises/happenings/hannenin/config/routes.rb:2 [FINISH]
+c:0071 p:---- s:0283 e:000282 CFUNC  :instance_exec
+c:0070 p:0067 s:0280 e:000279 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/routing/route_set.rb:337
+c:0069 p:0020 s:0275 e:000274 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/routing/route_set.rb:315
+c:0068 p:0015 s:0271 E:001398 TOP    /Users/mabdeljalil/Applications/level_up_exercises/happenings/hannenin/config/routes.rb:1 [FINISH]
+c:0067 p:---- s:0269 e:000268 CFUNC  :load
+c:0066 p:0012 s:0264 e:000263 BLOCK  /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241
+c:0065 p:0054 s:0262 e:000261 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232
+c:0064 p:0019 s:0257 e:000256 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241
+c:0063 p:0009 s:0251 e:000250 BLOCK  /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/application/routes_reloader.rb:40 [FINISH]
+c:0062 p:---- s:0248 e:000247 CFUNC  :each
+c:0061 p:0009 s:0245 e:000244 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/application/routes_reloader.rb:40
+c:0060 p:0013 s:0242 e:000241 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/application/routes_reloader.rb:16
+c:0059 p:0007 s:0239 e:000238 BLOCK  /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/application/routes_reloader.rb:26 [FINISH]
+c:0058 p:---- s:0237 e:000236 CFUNC  :call
+c:0057 p:0028 s:0234 e:000233 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/file_update_checker.rb:75
+c:0056 p:0042 s:0231 E:000f00 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/application/routes_reloader.rb:27
+c:0055 p:0007 s:0227 e:000226 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/application/routes_reloader.rb:7
+c:0054 p:0015 s:0220 e:000219 BLOCK  /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/application/finisher.rb:71 [FINISH]
+c:0053 p:---- s:0217 e:000216 CFUNC  :instance_exec
+c:0052 p:0014 s:0213 e:000212 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/initializable.rb:30
+c:0051 p:0018 s:0209 e:000208 BLOCK  /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/initializable.rb:55
+c:0050 p:0021 s:0206 e:000205 BLOCK  /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:226
+c:0049 p:0008 s:0203 e:000202 BLOCK  /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:348
+c:0048 p:0094 s:0200 E:000af8 METHOD /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:427
+c:0047 p:0034 s:0189 E:000a10 BLOCK  /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:347 [FINISH]
+c:0046 p:---- s:0186 e:000185 CFUNC  :each
+c:0045 p:---- s:0184 e:000183 CFUNC  :call
+c:0044 p:0020 s:0181 E:000418 METHOD /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:345
+c:0043 p:0017 s:0174 E:0026d8 METHOD /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:224
+c:0042 p:0037 s:0169 e:000168 METHOD /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:205
+c:0041 p:0028 s:0163 E:002578 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/initializable.rb:54
+c:0040 p:0027 s:0158 e:000157 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/application.rb:300
+c:0039 p:0032 s:0154 e:000153 TOP    /Users/mabdeljalil/Applications/level_up_exercises/happenings/hannenin/config/environment.rb:5 [FINISH]
+c:0038 p:---- s:0152 e:000151 CFUNC  :require
+c:0037 p:0010 s:0148 e:000147 BLOCK  /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:247
+c:0036 p:0054 s:0146 e:000145 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232
+c:0035 p:0015 s:0141 e:000140 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:247
+c:0034 p:0023 s:0136 e:000135 BLOCK  /Users/mabdeljalil/Applications/level_up_exercises/happenings/hannenin/config.ru:3 [FINISH]
+c:0033 p:---- s:0134 e:000133 CFUNC  :instance_eval
+c:0032 p:0035 s:0131 e:000130 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/builder.rb:55 [FINISH]
+c:0031 p:---- s:0126 e:000125 CFUNC  :new
+c:0030 p:0013 s:0123 E:0003f8 EVAL   [FINISH]
+c:0029 p:---- s:0121 e:000120 CFUNC  :eval
+c:0028 p:0031 s:0114 e:000113 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/builder.rb:49
+c:0027 p:0098 s:0109 e:000108 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/builder.rb:40
+c:0026 p:0070 s:0101 e:000100 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/server.rb:277
+c:0025 p:0035 s:0096 e:000095 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/server.rb:199
+c:0024 p:0024 s:0093 e:000092 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/commands/server.rb:50
+c:0023 p:0022 s:0089 e:000087 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/server.rb:314
+c:0022 p:0007 s:0085 e:000084 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/commands/server.rb:130
+c:0021 p:0036 s:0081 E:0017c8 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/commands/server.rb:67
+c:0020 p:0044 s:0078 e:000077 BLOCK  /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/commands/commands_tasks.rb:81 [FINISH]
+c:0019 p:---- s:0075 e:000074 CFUNC  :tap
+c:0018 p:0031 s:0072 e:000071 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/commands/commands_tasks.rb:76
+c:0017 p:0033 s:0069 e:000068 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/commands/commands_tasks.rb:40
+c:0016 p:0116 s:0065 e:000064 TOP    /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/commands.rb:17 [FINISH]
+c:0015 p:---- s:0061 e:000060 CFUNC  :require
+c:0014 p:0056 s:0057 e:000056 TOP    /Users/mabdeljalil/Applications/level_up_exercises/happenings/hannenin/bin/rails:8 [FINISH]
+c:0013 p:---- s:0055 e:000054 CFUNC  :load
+c:0012 p:0127 s:0051 e:000050 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/lib/spring/client/rails.rb:27
+c:0011 p:0011 s:0047 e:000046 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/lib/spring/client/command.rb:7
+c:0010 p:0015 s:0043 e:000042 METHOD /Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/lib/spring/client.rb:26
+c:0009 p:0292 s:0038 e:000037 TOP    /Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/bin/spring:48 [FINISH]
+c:0008 p:---- s:0034 e:000033 CFUNC  :load
+c:0007 p:0122 s:0030 e:000029 TOP    /Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/lib/spring/binstub.rb:11 [FINISH]
+c:0006 p:---- s:0025 e:000024 CFUNC  :require
+c:0005 p:0115 s:0021 e:000020 METHOD /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55
+c:0004 p:0159 s:0011 e:000010 TOP    /Users/mabdeljalil/Applications/level_up_exercises/happenings/hannenin/bin/spring:16 [FINISH]
+c:0003 p:---- s:0008 e:000007 CFUNC  :load
+c:0002 p:0020 s:0004 E:001a28 EVAL   bin/rails:3 [FINISH]
+c:0001 p:0000 s:0002 E:000948 TOP    [FINISH]
+
+bin/rails:3:in `<main>'
+bin/rails:3:in `load'
+/Users/mabdeljalil/Applications/level_up_exercises/happenings/hannenin/bin/spring:16:in `<top (required)>'
+/Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/lib/spring/binstub.rb:11:in `<top (required)>'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/lib/spring/binstub.rb:11:in `load'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/bin/spring:48:in `<top (required)>'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/lib/spring/client.rb:26:in `run'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/lib/spring/client/command.rb:7:in `call'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/lib/spring/client/rails.rb:27:in `call'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/lib/spring/client/rails.rb:27:in `load'
+/Users/mabdeljalil/Applications/level_up_exercises/happenings/hannenin/bin/rails:8:in `<top (required)>'
+/Users/mabdeljalil/Applications/level_up_exercises/happenings/hannenin/bin/rails:8:in `require'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/commands.rb:17:in `<top (required)>'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/commands/commands_tasks.rb:76:in `server'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/commands/commands_tasks.rb:76:in `tap'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/commands/commands_tasks.rb:81:in `block in server'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/commands/server.rb:67:in `start'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/commands/server.rb:130:in `log_to_stdout'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/server.rb:314:in `wrapped_app'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/commands/server.rb:50:in `app'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/server.rb:199:in `app'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/server.rb:277:in `build_app_and_options_from_config'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/builder.rb:40:in `parse_file'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/builder.rb:49:in `new_from_string'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/builder.rb:49:in `eval'
+/Users/mabdeljalil/Applications/level_up_exercises/happenings/hannenin/config.ru:0:in `<main>'
+/Users/mabdeljalil/Applications/level_up_exercises/happenings/hannenin/config.ru:0:in `new'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/Users/mabdeljalil/Applications/level_up_exercises/happenings/hannenin/config.ru:3:in `block in <main>'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:247:in `require'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:247:in `block in require'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:247:in `require'
+/Users/mabdeljalil/Applications/level_up_exercises/happenings/hannenin/config/environment.rb:5:in `<top (required)>'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/application.rb:300:in `initialize!'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/initializable.rb:54:in `run_initializers'
+/Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:205:in `tsort_each'
+/Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:224:in `tsort_each'
+/Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:345:in `each_strongly_connected_component'
+/Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:345:in `call'
+/Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:345:in `each'
+/Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:347:in `block in each_strongly_connected_component'
+/Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:427:in `each_strongly_connected_component_from'
+/Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+/Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:226:in `block in tsort_each'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/initializable.rb:55:in `block in run_initializers'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/initializable.rb:30:in `run'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/initializable.rb:30:in `instance_exec'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/application/finisher.rb:71:in `block in <module:Finisher>'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/application/routes_reloader.rb:7:in `execute_if_updated'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/application/routes_reloader.rb:27:in `updater'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/file_update_checker.rb:75:in `execute'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/file_update_checker.rb:75:in `call'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/application/routes_reloader.rb:26:in `block in updater'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/application/routes_reloader.rb:16:in `reload!'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/application/routes_reloader.rb:40:in `load_paths'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/application/routes_reloader.rb:40:in `each'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:241:in `load'
+/Users/mabdeljalil/Applications/level_up_exercises/happenings/hannenin/config/routes.rb:1:in `<top (required)>'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/routing/route_set.rb:315:in `draw'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/routing/route_set.rb:337:in `eval_block'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/routing/route_set.rb:337:in `instance_exec'
+/Users/mabdeljalil/Applications/level_up_exercises/happenings/hannenin/config/routes.rb:2:in `block in <top (required)>'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/rails/routes.rb:223:in `devise_for'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/rails/routes.rb:223:in `each'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/rails/routes.rb:224:in `block in devise_for'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise.rb:336:in `add_mapping'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise.rb:336:in `new'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/mapping.rb:69:in `initialize'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/mapping.rb:159:in `default_used_route'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/mapping.rb:92:in `routes'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/mapping.rb:75:in `modules'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/mapping.rb:80:in `to'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise.rb:302:in `get'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:583:in `constantize'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:552:in `get'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/inflector/methods.rb:236:in `constantize'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/inflector/methods.rb:236:in `inject'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/inflector/methods.rb:236:in `each'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/inflector/methods.rb:238:in `block in constantize'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/inflector/methods.rb:238:in `const_get'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:180:in `const_missing'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:480:in `load_missing_constant'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:342:in `require_or_load'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:442:in `load_file'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:633:in `new_constants_in'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:443:in `block in load_file'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:443:in `load'
+/Users/mabdeljalil/Applications/level_up_exercises/happenings/hannenin/app/models/user.rb:1:in `<top (required)>'
+/Users/mabdeljalil/Applications/level_up_exercises/happenings/hannenin/app/models/user.rb:4:in `<class:User>'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/models.rb:84:in `devise'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/models.rb:114:in `devise_modules_hook!'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/models.rb:87:in `block in devise'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/models.rb:87:in `each'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/models.rb:88:in `block (2 levels) in devise'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/models.rb:88:in `const_get'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/models/database_authenticatable.rb:2:in `<top (required)>'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:247:in `require'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:230:in `load_dependency'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:633:in `new_constants_in'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:230:in `block in load_dependency'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:247:in `block in require'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:247:in `require'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/bcrypt-3.1.9/lib/bcrypt.rb:12:in `<top (required)>'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/bcrypt-3.1.9/lib/bcrypt.rb:16:in `rescue in <top (required)>'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:247:in `require'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:230:in `load_dependency'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:633:in `new_constants_in'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:230:in `block in load_dependency'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:247:in `block in require'
+/Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb:247:in `require'
+
+-- C level backtrace information -------------------------------------------
+0   ruby                                0x000000010081c1d0 rb_vm_bugreport + 144
+1   ruby                                0x00000001006ce0d1 report_bug + 305
+2   ruby                                0x00000001006cdf94 rb_bug + 180
+3   ruby                                0x000000010079e7dc sigsegv + 156
+4   libsystem_platform.dylib            0x00007fff89883f1a _sigtramp + 26
+5   libruby.2.0.0.dylib                 0x000000010118e49f ruby_xmalloc + 17
+6   ???                                 0x00007fff5f5651f0 0x0 + 140734792880624
+
+-- Other runtime information -----------------------------------------------
+
+* Loaded script: bin/rails
+
+* Loaded features:
+
+    0 enumerator.so
+    1 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/enc/encdb.bundle
+    2 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/enc/trans/transdb.bundle
+    3 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/rbconfig.rb
+    4 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/compatibility.rb
+    5 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/defaults.rb
+    6 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/deprecate.rb
+    7 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/errors.rb
+    8 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/version.rb
+    9 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/requirement.rb
+   10 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/platform.rb
+   11 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/basic_specification.rb
+   12 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/stub_specification.rb
+   13 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/util/stringio.rb
+   14 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/specification.rb
+   15 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/exceptions.rb
+   16 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/core_ext/kernel_gem.rb
+   17 thread.rb
+   18 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/thread.bundle
+   19 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/monitor.rb
+   20 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb
+   21 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems.rb
+   22 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/path_support.rb
+   23 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/dependency.rb
+   24 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/etc.bundle
+   25 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/fileutils.rb
+   26 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/pathname.bundle
+   27 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/pathname.rb
+   28 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/gem_path_manipulation.rb
+   29 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/gem_helpers.rb
+   30 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/match_platform.rb
+   31 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/rubygems_ext.rb
+   32 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/io/console.bundle
+   33 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/user_interaction.rb
+   34 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/config_file.rb
+   35 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/rubygems_integration.rb
+   36 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/version.rb
+   37 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/constants.rb
+   38 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/current_ruby.rb
+   39 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler.rb
+   40 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/shared_helpers.rb
+   41 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/settings.rb
+   42 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/lib/spring/errors.rb
+   43 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/stringio.bundle
+   44 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/lib/spring/json.rb
+   45 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/digest.bundle
+   46 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/digest.rb
+   47 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/digest/md5.bundle
+   48 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/tmpdir.rb
+   49 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/lib/spring/version.rb
+   50 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/fiddle.bundle
+   51 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/fiddle/function.rb
+   52 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/fiddle/closure.rb
+   53 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/fiddle.rb
+   54 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/lib/spring/sid.rb
+   55 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/lib/spring/configuration.rb
+   56 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/lib/spring/env.rb
+   57 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/lib/spring/client/command.rb
+   58 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/socket.bundle
+   59 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/socket.rb
+   60 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/lib/spring/client/run.rb
+   61 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/lib/spring/client/help.rb
+   62 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/set.rb
+   63 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/lib/spring/client/binstub.rb
+   64 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/lib/spring/client/stop.rb
+   65 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/lib/spring/client/status.rb
+   66 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/lib/spring/client/rails.rb
+   67 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/lib/spring/client/version.rb
+   68 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/spring-1.2.0/lib/spring/client.rb
+   69 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/digest/sha1.bundle
+   70 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/definition.rb
+   71 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/dependency.rb
+   72 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/ruby_dsl.rb
+   73 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/dsl.rb
+   74 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/source_list.rb
+   75 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/source.rb
+   76 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/uri/common.rb
+   77 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/uri/generic.rb
+   78 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/uri/ftp.rb
+   79 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/uri/http.rb
+   80 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/uri/https.rb
+   81 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/uri/ldap.rb
+   82 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/uri/ldaps.rb
+   83 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/uri/mailto.rb
+   84 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/uri.rb
+   85 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/timeout.rb
+   86 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/net/protocol.rb
+   87 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/zlib.bundle
+   88 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/net/http/exceptions.rb
+   89 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/net/http/header.rb
+   90 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/net/http/generic_request.rb
+   91 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/net/http/request.rb
+   92 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/net/http/requests.rb
+   93 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/net/http/response.rb
+   94 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/net/http/responses.rb
+   95 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/net/http/proxy_delta.rb
+   96 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/net/http/backward.rb
+   97 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/net/http.rb
+   98 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/date_core.bundle
+   99 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/date/format.rb
+  100 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/date.rb
+  101 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/time.rb
+  102 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/request.rb
+  103 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/cgi/core.rb
+  104 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/cgi/util.rb
+  105 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/cgi/cookie.rb
+  106 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/cgi.rb
+  107 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/uri_formatter.rb
+  108 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/fcntl.bundle
+  109 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/openssl.bundle
+  110 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/openssl/bn.rb
+  111 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/openssl/cipher.rb
+  112 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/openssl/config.rb
+  113 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/openssl/digest.rb
+  114 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/openssl/x509.rb
+  115 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/openssl/buffering.rb
+  116 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/openssl/ssl.rb
+  117 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/openssl.rb
+  118 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/securerandom.rb
+  119 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/resolv.rb
+  120 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/remote_fetcher.rb
+  121 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/text.rb
+  122 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/name_tuple.rb
+  123 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/rubygems/spec_fetcher.rb
+  124 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/source/rubygems.rb
+  125 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/strscan.bundle
+  126 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/source/path.rb
+  127 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/source/git.rb
+  128 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/lockfile_parser.rb
+  129 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/lazy_specification.rb
+  130 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb
+  131 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/forwardable.rb
+  132 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/spec_set.rb
+  133 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/environment.rb
+  134 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/runtime.rb
+  135 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/index.rb
+  136 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/remote_specification.rb
+  137 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/endpoint_specification.rb
+  138 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/dep_proxy.rb
+  139 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/bundler-1.7.11/lib/bundler/setup.rb
+  140 /Users/mabdeljalil/Applications/level_up_exercises/happenings/hannenin/config/boot.rb
+  141 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/commands/commands_tasks.rb
+  142 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/optparse.rb
+  143 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/thread_safe-0.3.4/lib/thread_safe/version.rb
+  144 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/delegate.rb
+  145 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/thread_safe-0.3.4/lib/thread_safe/synchronized_delegator.rb
+  146 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/thread_safe-0.3.4/lib/thread_safe.rb
+  147 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/array/prepend_and_append.rb
+  148 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/hash/deep_merge.rb
+  149 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/hash/except.rb
+  150 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/hash/slice.rb
+  151 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/i18n-0.7.0/lib/i18n/version.rb
+  152 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/i18n-0.7.0/lib/i18n/exceptions.rb
+  153 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/i18n-0.7.0/lib/i18n/interpolate/ruby.rb
+  154 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/i18n-0.7.0/lib/i18n.rb
+  155 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/lazy_load_hooks.rb
+  156 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/i18n-0.7.0/lib/i18n/config.rb
+  157 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/i18n.rb
+  158 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/thread_safe-0.3.4/lib/thread_safe/non_concurrent_cache_backend.rb
+  159 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/thread_safe-0.3.4/lib/thread_safe/mri_cache_backend.rb
+  160 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/thread_safe-0.3.4/lib/thread_safe/cache.rb
+  161 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/inflector/inflections.rb
+  162 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/inflections.rb
+  163 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/inflector/methods.rb
+  164 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies/autoload.rb
+  165 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/gem_version.rb
+  166 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/version.rb
+  167 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/array/extract_options.rb
+  168 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/module/attribute_accessors.rb
+  169 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/concern.rb
+  170 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/logger_silence.rb
+  171 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/logger.rb
+  172 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/logger.rb
+  173 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support.rb
+  174 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/object/blank.rb
+  175 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/kernel/singleton_class.rb
+  176 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/module/remove_method.rb
+  177 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/class/attribute.rb
+  178 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/module/delegation.rb
+  179 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/singleton.rb
+  180 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/deprecation/instance_delegator.rb
+  181 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/notifications/instrumenter.rb
+  182 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/mutex_m.rb
+  183 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/notifications/fanout.rb
+  184 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/per_thread_registry.rb
+  185 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/notifications.rb
+  186 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/deprecation/behaviors.rb
+  187 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/deprecation/reporting.rb
+  188 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/module/aliasing.rb
+  189 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/deprecation/method_wrappers.rb
+  190 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/deprecation/proxy_wrappers.rb
+  191 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/module/deprecation.rb
+  192 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/deprecation.rb
+  193 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/rails.rb
+  194 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_pack/gem_version.rb
+  195 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_pack/version.rb
+  196 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_pack.rb
+  197 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/tempfile.rb
+  198 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/multipart.rb
+  199 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/utils.rb
+  200 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack.rb
+  201 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch.rb
+  202 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/ruby_version_check.rb
+  203 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/kernel/reporting.rb
+  204 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/hash/keys.rb
+  205 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/key_generator.rb
+  206 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/base64.rb
+  207 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/message_verifier.rb
+  208 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/initializable.rb
+  209 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/ordered_options.rb
+  210 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/object/acts_like.rb
+  211 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/bigdecimal.bundle
+  212 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/object/duplicable.rb
+  213 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/object/deep_dup.rb
+  214 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/object/try.rb
+  215 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/object/inclusion.rb
+  216 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/object/to_query.rb
+  217 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/object/to_param.rb
+  218 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/multibyte.rb
+  219 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/string/multibyte.rb
+  220 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/inflector/transliterate.rb
+  221 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/string/inflections.rb
+  222 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/date_time/calculations.rb
+  223 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/xml_mini/rexml.rb
+  224 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/xml_mini.rb
+  225 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/array/conversions.rb
+  226 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/time/acts_like.rb
+  227 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/proxy_object.rb
+  228 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/duration.rb
+  229 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/ruby_core_support.rb
+  230 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/offset_rationals.rb
+  231 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/time_or_datetime.rb
+  232 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/timezone_definition.rb
+  233 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/timezone_offset.rb
+  234 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/timezone_transition.rb
+  235 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/timezone_transition_definition.rb
+  236 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/timezone_index_definition.rb
+  237 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/timezone_info.rb
+  238 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/data_timezone_info.rb
+  239 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/linked_timezone_info.rb
+  240 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/transition_data_timezone_info.rb
+  241 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/zoneinfo_timezone_info.rb
+  242 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/data_source.rb
+  243 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/ruby_data_source.rb
+  244 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/zoneinfo_data_source.rb
+  245 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/timezone_period.rb
+  246 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/timezone.rb
+  247 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/info_timezone.rb
+  248 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/data_timezone.rb
+  249 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/linked_timezone.rb
+  250 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/timezone_proxy.rb
+  251 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/country_index_definition.rb
+  252 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/country_info.rb
+  253 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/ruby_country_info.rb
+  254 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/zoneinfo_country_info.rb
+  255 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/country.rb
+  256 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo/country_timezone.rb
+  257 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tzinfo-1.2.2/lib/tzinfo.rb
+  258 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/values/time_zone.rb
+  259 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/time/conversions.rb
+  260 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/time_with_zone.rb
+  261 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/date_and_time/zones.rb
+  262 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/time/zones.rb
+  263 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/date_and_time/calculations.rb
+  264 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/time/calculations.rb
+  265 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/time/marshal.rb
+  266 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/time.rb
+  267 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/date/acts_like.rb
+  268 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/date/zones.rb
+  269 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/date/calculations.rb
+  270 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/date/conversions.rb
+  271 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/date.rb
+  272 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/date_time/acts_like.rb
+  273 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/date_time/conversions.rb
+  274 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/date_time/zones.rb
+  275 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/date_time.rb
+  276 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/numeric/time.rb
+  277 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/integer/time.rb
+  278 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/string/conversions.rb
+  279 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/string/zones.rb
+  280 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/time.rb
+  281 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/array/wrap.rb
+  282 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/hash/reverse_merge.rb
+  283 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/hash/conversions.rb
+  284 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/object/conversions.rb
+  285 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/object/instance_variables.rb
+  286 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/json/version.rb
+  287 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/ostruct.rb
+  288 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/json/generic_object.rb
+  289 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/json/common.rb
+  290 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/enc/utf_16be.bundle
+  291 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/enc/utf_16le.bundle
+  292 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/enc/utf_32be.bundle
+  293 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/enc/utf_32le.bundle
+  294 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/json/ext/parser.bundle
+  295 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/json/ext/generator.bundle
+  296 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/json/ext.rb
+  297 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/json.rb
+  298 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/bigdecimal/util.rb
+  299 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/big_decimal/conversions.rb
+  300 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/object/json.rb
+  301 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/option_merger.rb
+  302 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/object/with_options.rb
+  303 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/object.rb
+  304 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/paths.rb
+  305 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/rack.rb
+  306 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/configuration.rb
+  307 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/inflector.rb
+  308 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/module/introspection.rb
+  309 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/railtie.rb
+  310 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/engine/railties.rb
+  311 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/engine.rb
+  312 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/application.rb
+  313 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/gem_version.rb
+  314 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/version.rb
+  315 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/file_update_checker.rb
+  316 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/railtie/configuration.rb
+  317 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/i18n_railtie.rb
+  318 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/railtie.rb
+  319 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/railtie.rb
+  320 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails.rb
+  321 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/server.rb
+  322 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/commands/server.rb
+  323 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/string_inquirer.rb
+  324 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/gem_version.rb
+  325 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/version.rb
+  326 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model.rb
+  327 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/railtie.rb
+  328 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/crud.rb
+  329 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/factory_methods.rb
+  330 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/expressions.rb
+  331 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/predications.rb
+  332 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/window_predications.rb
+  333 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/math.rb
+  334 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/alias_predication.rb
+  335 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/order_predications.rb
+  336 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/table.rb
+  337 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/attributes/attribute.rb
+  338 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/attributes.rb
+  339 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/compatibility/wheres.rb
+  340 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/expression.rb
+  341 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/visitors/visitor.rb
+  342 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/visitors/depth_first.rb
+  343 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/visitors/to_sql.rb
+  344 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/visitors/sqlite.rb
+  345 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/visitors/postgresql.rb
+  346 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/visitors/mysql.rb
+  347 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/visitors/mssql.rb
+  348 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/visitors/oracle.rb
+  349 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/visitors/join_sql.rb
+  350 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/visitors/where_sql.rb
+  351 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/visitors/order_clauses.rb
+  352 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/visitors/dot.rb
+  353 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/visitors/ibm_db.rb
+  354 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/visitors/informix.rb
+  355 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/visitors.rb
+  356 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/tree_manager.rb
+  357 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/insert_manager.rb
+  358 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/select_manager.rb
+  359 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/update_manager.rb
+  360 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/delete_manager.rb
+  361 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/node.rb
+  362 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/select_statement.rb
+  363 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/select_core.rb
+  364 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/insert_statement.rb
+  365 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/update_statement.rb
+  366 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/terminal.rb
+  367 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/true.rb
+  368 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/false.rb
+  369 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/unary.rb
+  370 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/grouping.rb
+  371 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/ascending.rb
+  372 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/descending.rb
+  373 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/unqualified_column.rb
+  374 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/with.rb
+  375 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/binary.rb
+  376 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/equality.rb
+  377 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/in.rb
+  378 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/join_source.rb
+  379 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/delete_statement.rb
+  380 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/table_alias.rb
+  381 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/infix_operation.rb
+  382 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/over.rb
+  383 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/and.rb
+  384 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/function.rb
+  385 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/count.rb
+  386 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/extract.rb
+  387 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/values.rb
+  388 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/named_function.rb
+  389 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/window.rb
+  390 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/inner_join.rb
+  391 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/outer_join.rb
+  392 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/string_join.rb
+  393 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes/sql_literal.rb
+  394 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/nodes.rb
+  395 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/deprecated.rb
+  396 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/sql/engine.rb
+  397 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/sql_literal.rb
+  398 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel.rb
+  399 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/gem_version.rb
+  400 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/version.rb
+  401 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/enumerable.rb
+  402 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/attribute_methods.rb
+  403 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/attribute_methods.rb
+  404 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/benchmark.rb
+  405 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/benchmark.rb
+  406 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/connection_adapters/schema_cache.rb
+  407 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/ipaddr.rb
+  408 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/connection_adapters/abstract/schema_dumper.rb
+  409 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/connection_adapters/abstract/schema_creation.rb
+  410 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/connection_adapters/abstract/quoting.rb
+  411 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/connection_adapters/abstract/database_statements.rb
+  412 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/errors.rb
+  413 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/migration.rb
+  414 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/migration/join_table.rb
+  415 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/connection_adapters/abstract/schema_statements.rb
+  416 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/connection_adapters/abstract/database_limits.rb
+  417 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/connection_adapters/abstract/query_cache.rb
+  418 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/descendants_tracker.rb
+  419 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/callbacks.rb
+  420 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/connection_adapters/abstract_adapter.rb
+  421 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/scoping.rb
+  422 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record.rb
+  423 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/module/attr_internal.rb
+  424 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/module/anonymous.rb
+  425 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/abstract_controller.rb
+  426 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/http/filter_redirect.rb
+  427 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/request.rb
+  428 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/response.rb
+  429 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/http/cache.rb
+  430 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/http/response.rb
+  431 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/json/decoding.rb
+  432 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/json/encoding.rb
+  433 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/json.rb
+  434 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal/live.rb
+  435 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/hash_with_indifferent_access.rb
+  436 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/hash/indifferent_access.rb
+  437 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/rescuable.rb
+  438 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/http/upload.rb
+  439 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-test-0.6.2/lib/rack/mock_session.rb
+  440 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-test-0.6.2/lib/rack/test/cookie_jar.rb
+  441 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-test-0.6.2/lib/rack/test/mock_digest_request.rb
+  442 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-test-0.6.2/lib/rack/test/utils.rb
+  443 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-test-0.6.2/lib/rack/test/methods.rb
+  444 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-test-0.6.2/lib/rack/test/uploaded_file.rb
+  445 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-test-0.6.2/lib/rack/test.rb
+  446 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal/strong_parameters.rb
+  447 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/load_error.rb
+  448 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/name_error.rb
+  449 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/uri.rb
+  450 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller.rb
+  451 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/abstract_controller/railties/routes_helpers.rb
+  452 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/railties/helpers.rb
+  453 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/gem_version.rb
+  454 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/version.rb
+  455 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/erb.rb
+  456 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/string/output_safety.rb
+  457 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view.rb
+  458 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/railtie.rb
+  459 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/railtie.rb
+  460 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/railtie.rb
+  461 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionmailer-4.1.8/lib/action_mailer/gem_version.rb
+  462 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionmailer-4.1.8/lib/action_mailer/version.rb
+  463 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/class/delegating_attributes.rb
+  464 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/module/reachable.rb
+  465 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/class/subclasses.rb
+  466 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/class.rb
+  467 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionmailer-4.1.8/lib/action_mailer.rb
+  468 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionmailer-4.1.8/lib/action_mailer/railtie.rb
+  469 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/version.rb
+  470 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/hike-1.2.3/lib/hike.rb
+  471 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tilt-1.4.1/lib/tilt/template.rb
+  472 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tilt-1.4.1/lib/tilt/string.rb
+  473 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tilt-1.4.1/lib/tilt/erb.rb
+  474 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tilt-1.4.1/lib/tilt/etanni.rb
+  475 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tilt-1.4.1/lib/tilt/haml.rb
+  476 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tilt-1.4.1/lib/tilt/css.rb
+  477 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tilt-1.4.1/lib/tilt/csv.rb
+  478 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tilt-1.4.1/lib/tilt/coffee.rb
+  479 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tilt-1.4.1/lib/tilt/nokogiri.rb
+  480 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tilt-1.4.1/lib/tilt/builder.rb
+  481 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tilt-1.4.1/lib/tilt/markaby.rb
+  482 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tilt-1.4.1/lib/tilt/liquid.rb
+  483 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tilt-1.4.1/lib/tilt/radius.rb
+  484 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tilt-1.4.1/lib/tilt/markdown.rb
+  485 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tilt-1.4.1/lib/tilt/textile.rb
+  486 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tilt-1.4.1/lib/tilt/rdoc.rb
+  487 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tilt-1.4.1/lib/tilt/wiki.rb
+  488 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tilt-1.4.1/lib/tilt/yajl.rb
+  489 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tilt-1.4.1/lib/tilt/asciidoc.rb
+  490 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tilt-1.4.1/lib/tilt/plain.rb
+  491 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/tilt-1.4.1/lib/tilt.rb
+  492 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/eco_template.rb
+  493 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/ejs_template.rb
+  494 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/jst_processor.rb
+  495 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/utils.rb
+  496 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/engines.rb
+  497 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/mime.rb
+  498 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/mime.rb
+  499 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/processor.rb
+  500 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/processing.rb
+  501 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/compressing.rb
+  502 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/paths.rb
+  503 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/hike-1.2.3/lib/hike/normalized_array.rb
+  504 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/hike-1.2.3/lib/hike/extensions.rb
+  505 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/hike-1.2.3/lib/hike/index.rb
+  506 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/hike-1.2.3/lib/hike/paths.rb
+  507 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/hike-1.2.3/lib/hike/trail.rb
+  508 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/shellwords.rb
+  509 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/exception.rb
+  510 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/syntax_error.rb
+  511 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/psych.bundle
+  512 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/omap.rb
+  513 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/set.rb
+  514 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/class_loader.rb
+  515 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/scalar_scanner.rb
+  516 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/nodes/node.rb
+  517 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/nodes/stream.rb
+  518 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/nodes/document.rb
+  519 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/nodes/sequence.rb
+  520 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/nodes/scalar.rb
+  521 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/nodes/mapping.rb
+  522 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/nodes/alias.rb
+  523 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/nodes.rb
+  524 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/streaming.rb
+  525 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/visitors/visitor.rb
+  526 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/visitors/to_ruby.rb
+  527 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/visitors/emitter.rb
+  528 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/handler.rb
+  529 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/tree_builder.rb
+  530 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/visitors/yaml_tree.rb
+  531 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/json/ruby_events.rb
+  532 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/visitors/json_tree.rb
+  533 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/visitors/depth_first.rb
+  534 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/visitors.rb
+  535 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/parser.rb
+  536 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/coder.rb
+  537 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/core_ext.rb
+  538 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/deprecated.rb
+  539 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/stream.rb
+  540 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/json/yaml_events.rb
+  541 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/json/tree_builder.rb
+  542 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/json/stream.rb
+  543 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych/handlers/document_stream.rb
+  544 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/psych.rb
+  545 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/yaml.rb
+  546 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/directive_processor.rb
+  547 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/safety_colons.rb
+  548 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/charset_normalizer.rb
+  549 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/sass_compressor.rb
+  550 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/yui_compressor.rb
+  551 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/closure_compressor.rb
+  552 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/uglifier_compressor.rb
+  553 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/sass_template.rb
+  554 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/scss_template.rb
+  555 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets.rb
+  556 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/errors.rb
+  557 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/benchmarkable.rb
+  558 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/helpers/active_model_helper.rb
+  559 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/helpers/asset_url_helper.rb
+  560 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/helpers/capture_helper.rb
+  561 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/helpers/tag_helper.rb
+  562 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/helpers/asset_tag_helper.rb
+  563 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/helpers/atom_feed_helper.rb
+  564 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/helpers/cache_helper.rb
+  565 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/helpers/controller_helper.rb
+  566 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/helpers/csrf_helper.rb
+  567 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/helpers/date_helper.rb
+  568 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/helpers/debug_helper.rb
+  569 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/helpers/javascript_helper.rb
+  570 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/array/access.rb
+  571 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/helpers/url_helper.rb
+  572 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/string/filters.rb
+  573 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/vendor/html-scanner.rb
+  574 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/helpers/sanitize_helper.rb
+  575 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/helpers/output_safety_helper.rb
+  576 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/helpers/text_helper.rb
+  577 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/helpers/form_tag_helper.rb
+  578 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/model_naming.rb
+  579 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/helpers/form_helper.rb
+  580 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/helpers/form_options_helper.rb
+  581 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/number_helper.rb
+  582 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/helpers/number_helper.rb
+  583 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/module/concerning.rb
+  584 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/module/qualified_const.rb
+  585 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/module.rb
+  586 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/record_identifier.rb
+  587 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/helpers/record_tag_helper.rb
+  588 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/helpers/rendering_helper.rb
+  589 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/helpers/translation_helper.rb
+  590 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/helpers.rb
+  591 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-rails-2.2.2/lib/sprockets/rails/helper.rb
+  592 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-rails-2.2.2/lib/sprockets/rails/version.rb
+  593 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/engine/configuration.rb
+  594 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/application/configuration.rb
+  595 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-rails-2.2.2/lib/sprockets/railtie.rb
+  596 /Users/mabdeljalil/.gem/ruby/2.1.3/extensions/x86_64-darwin-14/2.1.0-static/pg-0.18.1/pg_ext.bundle
+  597 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/pg-0.18.1/lib/pg/exceptions.rb
+  598 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/pg-0.18.1/lib/pg/constants.rb
+  599 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/pg-0.18.1/lib/pg/coder.rb
+  600 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/pg-0.18.1/lib/pg/text_encoder.rb
+  601 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/pg-0.18.1/lib/pg/text_decoder.rb
+  602 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/pg-0.18.1/lib/pg/basic_type_mapping.rb
+  603 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/pg-0.18.1/lib/pg/type_map_by_column.rb
+  604 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/pg-0.18.1/lib/pg/connection.rb
+  605 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/pg-0.18.1/lib/pg/result.rb
+  606 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/pg-0.18.1/lib/pg.rb
+  607 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-rails-4.0.5/lib/sass/rails/version.rb
+  608 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/root.rb
+  609 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/util/subset_map.rb
+  610 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/util/multibyte_string_scanner.rb
+  611 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/util.rb
+  612 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/version.rb
+  613 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/logger/log_level.rb
+  614 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/logger/base.rb
+  615 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/logger.rb
+  616 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/cache_stores/base.rb
+  617 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/cache_stores/filesystem.rb
+  618 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/cache_stores/memory.rb
+  619 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/cache_stores/chain.rb
+  620 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/cache_stores.rb
+  621 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/node.rb
+  622 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/root_node.rb
+  623 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/rule_node.rb
+  624 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/comment_node.rb
+  625 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/prop_node.rb
+  626 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/directive_node.rb
+  627 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/media_node.rb
+  628 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/supports_node.rb
+  629 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/css_import_node.rb
+  630 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/variable_node.rb
+  631 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/mixin_def_node.rb
+  632 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/mixin_node.rb
+  633 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/trace_node.rb
+  634 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/content_node.rb
+  635 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/function_node.rb
+  636 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/return_node.rb
+  637 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/extend_node.rb
+  638 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/if_node.rb
+  639 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/while_node.rb
+  640 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/for_node.rb
+  641 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/each_node.rb
+  642 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/debug_node.rb
+  643 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/warn_node.rb
+  644 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/import_node.rb
+  645 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/charset_node.rb
+  646 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb
+  647 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb
+  648 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/visitors/cssize.rb
+  649 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/visitors/extend.rb
+  650 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/visitors/convert.rb
+  651 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/visitors/to_css.rb
+  652 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/visitors/deep_copy.rb
+  653 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/visitors/set_options.rb
+  654 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/tree/visitors/check_nesting.rb
+  655 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/selector/simple.rb
+  656 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/selector/abstract_sequence.rb
+  657 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/selector/comma_sequence.rb
+  658 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/selector/sequence.rb
+  659 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/selector/simple_sequence.rb
+  660 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/selector.rb
+  661 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/environment.rb
+  662 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/script/node.rb
+  663 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/script/variable.rb
+  664 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/script/functions.rb
+  665 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/script/funcall.rb
+  666 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/script/number.rb
+  667 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/script/color.rb
+  668 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/script/bool.rb
+  669 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/script/null.rb
+  670 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/script/list.rb
+  671 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/script/arg_list.rb
+  672 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/script/literal.rb
+  673 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/script/string.rb
+  674 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/script/unary_operation.rb
+  675 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/script/interpolation.rb
+  676 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/script/string_interpolation.rb
+  677 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/script/operation.rb
+  678 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/scss/rx.rb
+  679 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/script/lexer.rb
+  680 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/script/parser.rb
+  681 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/script.rb
+  682 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/scss/script_lexer.rb
+  683 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/scss/script_parser.rb
+  684 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/scss/parser.rb
+  685 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/script/css_lexer.rb
+  686 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/script/css_parser.rb
+  687 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/scss/static_parser.rb
+  688 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/scss/css_parser.rb
+  689 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/scss.rb
+  690 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/error.rb
+  691 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/importers/base.rb
+  692 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/importers/filesystem.rb
+  693 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/importers.rb
+  694 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/shared.rb
+  695 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/media.rb
+  696 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/supports.rb
+  697 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/engine.rb
+  698 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass/railtie.rb
+  699 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-3.2.19/lib/sass.rb
+  700 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/sass_functions.rb
+  701 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-rails-4.0.5/lib/sass/rails/helpers.rb
+  702 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/sass_importer.rb
+  703 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-rails-4.0.5/lib/sass/rails/importer.rb
+  704 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-rails-4.0.5/lib/sass/rails/template.rb
+  705 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-rails-4.0.5/lib/sass/rails/logger.rb
+  706 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-rails-4.0.5/lib/sass/rails/railtie.rb
+  707 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-rails-4.0.5/lib/sass/rails.rb
+  708 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sass-rails-4.0.5/lib/sass-rails.rb
+  709 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/execjs-2.2.2/lib/execjs/version.rb
+  710 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/execjs-2.2.2/lib/execjs/module.rb
+  711 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/execjs-2.2.2/lib/execjs/encoding.rb
+  712 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/execjs-2.2.2/lib/execjs/runtime.rb
+  713 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/execjs-2.2.2/lib/execjs/disabled_runtime.rb
+  714 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/execjs-2.2.2/lib/execjs/external_runtime.rb
+  715 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/execjs-2.2.2/lib/execjs/johnson_runtime.rb
+  716 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/execjs-2.2.2/lib/execjs/mustang_runtime.rb
+  717 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/execjs-2.2.2/lib/execjs/ruby_racer_runtime.rb
+  718 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/execjs-2.2.2/lib/execjs/ruby_rhino_runtime.rb
+  719 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/execjs-2.2.2/lib/execjs/runtimes.rb
+  720 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/execjs-2.2.2/lib/execjs.rb
+  721 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/uglifier-2.6.1/lib/uglifier/version.rb
+  722 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/uglifier-2.6.1/lib/uglifier.rb
+  723 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/coffee-script-source-1.8.0/lib/coffee_script/source.rb
+  724 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/coffee-script-2.3.0/lib/coffee_script.rb
+  725 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/coffee-script-2.3.0/lib/coffee-script.rb
+  726 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/coffee-rails-4.0.1/lib/coffee/rails/engine.rb
+  727 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/coffee-rails-4.0.1/lib/coffee/rails/template_handler.rb
+  728 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/coffee-rails-4.0.1/lib/coffee/rails/version.rb
+  729 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/coffee-rails-4.0.1/lib/coffee-rails.rb
+  730 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/jquery-rails-3.1.2/lib/jquery/rails/engine.rb
+  731 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/jquery-rails-3.1.2/lib/jquery/rails/railtie.rb
+  732 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/jquery-rails-3.1.2/lib/jquery/rails/version.rb
+  733 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/jquery-rails-3.1.2/lib/jquery/rails.rb
+  734 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/jquery-rails-3.1.2/lib/jquery-rails.rb
+  735 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/turbolinks-2.5.3/lib/turbolinks/version.rb
+  736 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/turbolinks-2.5.3/lib/turbolinks/xhr_headers.rb
+  737 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/turbolinks-2.5.3/lib/turbolinks/xhr_url_for.rb
+  738 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/turbolinks-2.5.3/lib/turbolinks/cookies.rb
+  739 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/turbolinks-2.5.3/lib/turbolinks/x_domain_blocker.rb
+  740 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/turbolinks-2.5.3/lib/turbolinks/redirection.rb
+  741 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/turbolinks-2.5.3/lib/turbolinks.rb
+  742 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/jbuilder-2.2.6/lib/jbuilder/jbuilder.rb
+  743 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/array/grouping.rb
+  744 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/array.rb
+  745 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/jbuilder-2.2.6/lib/jbuilder/key_formatter.rb
+  746 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/jbuilder-2.2.6/lib/jbuilder/errors.rb
+  747 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/multi_json-1.10.1/lib/multi_json/options.rb
+  748 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/multi_json-1.10.1/lib/multi_json/version.rb
+  749 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/multi_json-1.10.1/lib/multi_json/adapter_error.rb
+  750 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/multi_json-1.10.1/lib/multi_json/parse_error.rb
+  751 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/multi_json-1.10.1/lib/multi_json.rb
+  752 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/string/starts_ends_with.rb
+  753 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/http/mime_types.rb
+  754 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/http/mime_type.rb
+  755 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/numeric/bytes.rb
+  756 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/cache.rb
+  757 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/jbuilder-2.2.6/lib/jbuilder/jbuilder_template.rb
+  758 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/jbuilder-2.2.6/lib/jbuilder/railtie.rb
+  759 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/jbuilder-2.2.6/lib/jbuilder.rb
+  760 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/dependencies.rb
+  761 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/orm_adapter-0.5.0/lib/orm_adapter/base.rb
+  762 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/orm_adapter-0.5.0/lib/orm_adapter/to_adapter.rb
+  763 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/orm_adapter-0.5.0/lib/orm_adapter/version.rb
+  764 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/active_record.rb
+  765 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/orm_adapter-0.5.0/lib/orm_adapter.rb
+  766 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/subscriber.rb
+  767 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/log_subscriber.rb
+  768 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/log_subscriber.rb
+  769 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/struct.rb
+  770 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal/params_wrapper.rb
+  771 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/stack.rb
+  772 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/erubis-2.7.0/lib/erubis/util.rb
+  773 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/erubis-2.7.0/lib/erubis/generator.rb
+  774 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/erubis-2.7.0/lib/erubis/converter.rb
+  775 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/erubis-2.7.0/lib/erubis/error.rb
+  776 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/erubis-2.7.0/lib/erubis/context.rb
+  777 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/erubis-2.7.0/lib/erubis/evaluator.rb
+  778 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/erubis-2.7.0/lib/erubis/engine.rb
+  779 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/erubis-2.7.0/lib/erubis/helper.rb
+  780 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/erubis-2.7.0/lib/erubis/enhancer.rb
+  781 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/erubis-2.7.0/lib/erubis/engine/eruby.rb
+  782 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/erubis-2.7.0/lib/erubis/local-setting.rb
+  783 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/erubis-2.7.0/lib/erubis.rb
+  784 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/configurable.rb
+  785 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/abstract_controller/base.rb
+  786 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal.rb
+  787 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/log_subscriber.rb
+  788 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/context.rb
+  789 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/template/handlers.rb
+  790 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/template/handlers/erb.rb
+  791 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/template/handlers/builder.rb
+  792 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/template/handlers/raw.rb
+  793 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/template.rb
+  794 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/template/resolver.rb
+  795 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/lookup_context.rb
+  796 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/template/types.rb
+  797 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/base.rb
+  798 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/view_paths.rb
+  799 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/abstract_controller/rendering.rb
+  800 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/abstract_controller/translation.rb
+  801 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/abstract_controller/asset_paths.rb
+  802 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/abstract_controller/helpers.rb
+  803 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal/helpers.rb
+  804 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal/hide_actions.rb
+  805 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/regexp.rb
+  806 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/routing.rb
+  807 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/model_naming.rb
+  808 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/routing/polymorphic_routes.rb
+  809 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/routing/url_for.rb
+  810 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/abstract_controller/url_for.rb
+  811 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal/url_for.rb
+  812 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/abstract_controller/logger.rb
+  813 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/http/headers.rb
+  814 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal/exceptions.rb
+  815 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/http/mime_negotiation.rb
+  816 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/http/parameters.rb
+  817 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/http/parameter_filter.rb
+  818 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/http/filter_parameters.rb
+  819 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/http/url.rb
+  820 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/http/request.rb
+  821 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal/rack_delegation.rb
+  822 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal/redirecting.rb
+  823 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/rendering.rb
+  824 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/layouts.rb
+  825 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal/rendering.rb
+  826 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal/renderers.rb
+  827 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal/head.rb
+  828 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal/conditional_get.rb
+  829 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/abstract_controller/callbacks.rb
+  830 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/caching/fragments.rb
+  831 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/caching.rb
+  832 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/abstract_controller/collector.rb
+  833 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal/mime_responds.rb
+  834 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal/implicit_render.rb
+  835 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal/cookies.rb
+  836 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal/flash.rb
+  837 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/session/abstract/id.rb
+  838 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/cookies.rb
+  839 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal/request_forgery_protection.rb
+  840 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal/force_ssl.rb
+  841 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/chunked.rb
+  842 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal/streaming.rb
+  843 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal/data_streaming.rb
+  844 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal/http_authentication.rb
+  845 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal/rescue.rb
+  846 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal/instrumentation.rb
+  847 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/path_set.rb
+  848 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/metal/responder.rb
+  849 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_controller/base.rb
+  850 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/responders-1.1.2/lib/responders/controller_method.rb
+  851 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/responders-1.1.2/lib/responders.rb
+  852 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/ordered_hash.rb
+  853 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/controllers/sign_in_out.rb
+  854 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/controllers/store_location.rb
+  855 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/controllers/helpers.rb
+  856 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/warden-1.2.3/lib/warden/mixins/common.rb
+  857 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/warden-1.2.3/lib/warden/proxy.rb
+  858 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/warden-1.2.3/lib/warden/hooks.rb
+  859 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/warden-1.2.3/lib/warden/config.rb
+  860 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/warden-1.2.3/lib/warden/manager.rb
+  861 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/warden-1.2.3/lib/warden/errors.rb
+  862 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/warden-1.2.3/lib/warden/session_serializer.rb
+  863 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/warden-1.2.3/lib/warden/strategies.rb
+  864 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/warden-1.2.3/lib/warden/strategies/base.rb
+  865 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/warden-1.2.3/lib/warden.rb
+  866 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/mapping.rb
+  867 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/hooks/activatable.rb
+  868 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/hooks/csrf_cleaner.rb
+  869 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/models/authenticatable.rb
+  870 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/models.rb
+  871 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/modules.rb
+  872 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/journey/router/utils.rb
+  873 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/journey/router/strexp.rb
+  874 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/journey/routes.rb
+  875 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/journey/formatter.rb
+  876 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/x86_64-darwin14.0/racc/cparse.bundle
+  877 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/racc/parser.rb
+  878 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/journey/scanner.rb
+  879 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/journey/visitors.rb
+  880 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/journey/nodes/node.rb
+  881 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/journey/parser_extras.rb
+  882 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/journey/parser.rb
+  883 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/journey/route.rb
+  884 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/journey/path/pattern.rb
+  885 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/journey/router.rb
+  886 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/journey/nfa/dot.rb
+  887 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/journey/gtg/transition_table.rb
+  888 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/journey/gtg/builder.rb
+  889 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/journey/gtg/simulator.rb
+  890 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/journey/nfa/transition_table.rb
+  891 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/journey/nfa/builder.rb
+  892 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/journey/nfa/simulator.rb
+  893 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/journey.rb
+  894 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/routing/route_set.rb
+  895 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/routing/redirection.rb
+  896 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/routing/mapper.rb
+  897 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/rails/routes.rb
+  898 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/rails/warden_compat.rb
+  899 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/rails.rb
+  900 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise.rb
+  901 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rspec-rails-3.1.0/lib/rspec-rails.rb
+  902 /Users/mabdeljalil/Applications/level_up_exercises/happenings/hannenin/config/application.rb
+  903 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/handler.rb
+  904 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/compat.rb
+  905 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/version.rb
+  906 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpversion.rb
+  907 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httputils.rb
+  908 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/utils.rb
+  909 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/log.rb
+  910 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/config.rb
+  911 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb
+  912 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/accesslog.rb
+  913 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/htmlutils.rb
+  914 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/cookie.rb
+  915 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpstatus.rb
+  916 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httprequest.rb
+  917 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpresponse.rb
+  918 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpservlet/abstract.rb
+  919 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpservlet/filehandler.rb
+  920 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpservlet/cgihandler.rb
+  921 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpservlet/erbhandler.rb
+  922 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpservlet/prochandler.rb
+  923 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpservlet.rb
+  924 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb
+  925 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpauth/authenticator.rb
+  926 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpauth/basicauth.rb
+  927 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpauth/digestauth.rb
+  928 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpauth/userdb.rb
+  929 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpauth/htpasswd.rb
+  930 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpauth/htdigest.rb
+  931 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpauth/htgroup.rb
+  932 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpauth.rb
+  933 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick.rb
+  934 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/content_length.rb
+  935 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/handler/webrick.rb
+  936 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/builder.rb
+  937 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/application/bootstrap.rb
+  938 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/application/finisher.rb
+  939 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/application/routes_reloader.rb
+  940 /Users/mabdeljalil/Applications/level_up_exercises/happenings/hannenin/config/environments/development.rb
+  941 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/big_decimal.rb
+  942 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/file/atomic.rb
+  943 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/file.rb
+  944 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/hash/compact.rb
+  945 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/hash.rb
+  946 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/integer/multiple.rb
+  947 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/integer/inflections.rb
+  948 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/integer.rb
+  949 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/kernel/agnostics.rb
+  950 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/kernel/debugger.rb
+  951 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/kernel.rb
+  952 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/marshal.rb
+  953 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/numeric/conversions.rb
+  954 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/numeric.rb
+  955 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/range/conversions.rb
+  956 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/range/include_range.rb
+  957 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/range/overlaps.rb
+  958 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/range/each.rb
+  959 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/range.rb
+  960 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/string/access.rb
+  961 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/string/behavior.rb
+  962 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/string/exclude.rb
+  963 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/string/strip.rb
+  964 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/string/inquiry.rb
+  965 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/string/indent.rb
+  966 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/string.rb
+  967 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/thread.rb
+  968 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext.rb
+  969 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/all.rb
+  970 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/tagged_logging.rb
+  971 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/cache/file_store.rb
+  972 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/cache/strategy/local_cache.rb
+  973 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/body_proxy.rb
+  974 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/cache/strategy/local_cache_middleware.rb
+  975 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/request/utils.rb
+  976 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/exception_wrapper.rb
+  977 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/secure_password.rb
+  978 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/routing_url_for.rb
+  979 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/log_subscriber.rb
+  980 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/railties/controller_runtime.rb
+  981 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/asset_attributes.rb
+  982 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/asset.rb
+  983 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/bundled_asset.rb
+  984 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/caching.rb
+  985 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/processed_asset.rb
+  986 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/server.rb
+  987 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/static_asset.rb
+  988 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/base.rb
+  989 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/context.rb
+  990 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/index.rb
+  991 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/environment.rb
+  992 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/cache/file_store.rb
+  993 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionview-4.1.8/lib/action_view/dependency_tracker.rb
+  994 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/jbuilder-2.2.6/lib/jbuilder/dependency_tracker.rb
+  995 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/responders-1.1.2/lib/responders/flash_responder.rb
+  996 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/explain_registry.rb
+  997 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/explain_subscriber.rb
+  998 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/relation/delegation.rb
+  999 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/naming.rb
+ 1000 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/connection_handling.rb
+ 1001 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/query_cache.rb
+ 1002 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/querying.rb
+ 1003 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/translation.rb
+ 1004 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/translation.rb
+ 1005 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/dynamic_matchers.rb
+ 1006 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/explain.rb
+ 1007 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/enum.rb
+ 1008 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/core.rb
+ 1009 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/connection_adapters/connection_specification.rb
+ 1010 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/connection_adapters/abstract/connection_pool.rb
+ 1011 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/persistence.rb
+ 1012 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/readonly_attributes.rb
+ 1013 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/model_schema.rb
+ 1014 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/inheritance.rb
+ 1015 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/scoping/default.rb
+ 1016 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/scoping/named.rb
+ 1017 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/sanitization.rb
+ 1018 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/forbidden_attributes_protection.rb
+ 1019 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/attribute_assignment.rb
+ 1020 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/conversion.rb
+ 1021 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/integration.rb
+ 1022 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/validator.rb
+ 1023 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/validations/absence.rb
+ 1024 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/validations/acceptance.rb
+ 1025 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/validations/callbacks.rb
+ 1026 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/validations/clusivity.rb
+ 1027 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/validations/confirmation.rb
+ 1028 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/validations/exclusion.rb
+ 1029 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/validations/format.rb
+ 1030 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/validations/inclusion.rb
+ 1031 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/validations/length.rb
+ 1032 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/validations/numericality.rb
+ 1033 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/validations/presence.rb
+ 1034 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/validations/validates.rb
+ 1035 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/validations/with.rb
+ 1036 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/validations.rb
+ 1037 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/validations/associated.rb
+ 1038 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/validations/uniqueness.rb
+ 1039 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/validations/presence.rb
+ 1040 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/validations.rb
+ 1041 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/callbacks.rb
+ 1042 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/counter_cache.rb
+ 1043 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/locking/optimistic.rb
+ 1044 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/locking/pessimistic.rb
+ 1045 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activesupport-4.1.8/lib/active_support/core_ext/module/method_transplanting.rb
+ 1046 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/attribute_methods/read.rb
+ 1047 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/attribute_methods/write.rb
+ 1048 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/attribute_methods/before_type_cast.rb
+ 1049 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/attribute_methods/query.rb
+ 1050 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/attribute_methods/primary_key.rb
+ 1051 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/attribute_methods/time_zone_conversion.rb
+ 1052 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/dirty.rb
+ 1053 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/attribute_methods/dirty.rb
+ 1054 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/timestamp.rb
+ 1055 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/attribute_methods/serialization.rb
+ 1056 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/callbacks.rb
+ 1057 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/associations.rb
+ 1058 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/autosave_association.rb
+ 1059 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/associations/builder/association.rb
+ 1060 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/nested_attributes.rb
+ 1061 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/aggregations.rb
+ 1062 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/transactions.rb
+ 1063 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/no_touching.rb
+ 1064 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/reflection.rb
+ 1065 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/serialization.rb
+ 1066 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/serializers/json.rb
+ 1067 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activemodel-4.1.8/lib/active_model/serializers/xml.rb
+ 1068 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/serializers/xml_serializer.rb
+ 1069 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/serialization.rb
+ 1070 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/store.rb
+ 1071 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/connection_adapters/statement_pool.rb
+ 1072 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/connection_adapters/postgresql/oid.rb
+ 1073 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/connection_adapters/column.rb
+ 1074 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/connection_adapters/postgresql/cast.rb
+ 1075 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/connection_adapters/postgresql/array_parser.rb
+ 1076 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/connection_adapters/postgresql/quoting.rb
+ 1077 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/connection_adapters/postgresql/schema_statements.rb
+ 1078 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/connection_adapters/postgresql/database_statements.rb
+ 1079 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/connection_adapters/postgresql/referential_integrity.rb
+ 1080 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/arel-5.0.1.20140414130214/lib/arel/visitors/bind_visitor.rb
+ 1081 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/connection_adapters/abstract/schema_definitions.rb
+ 1082 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/connection_adapters/abstract/savepoints.rb
+ 1083 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/connection_adapters/postgresql_adapter.rb
+ 1084 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/runtime_registry.rb
+ 1085 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/reloader.rb
+ 1086 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/base.rb
+ 1087 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/orm/active_record.rb
+ 1088 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/controllers/url_helpers.rb
+ 1089 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/token_generator.rb
+ 1090 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/routing/routes_proxy.rb
+ 1091 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/application/default_middleware_stack.rb
+ 1092 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/file.rb
+ 1093 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/sendfile.rb
+ 1094 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/static.rb
+ 1095 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/lock.rb
+ 1096 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/runtime.rb
+ 1097 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/methodoverride.rb
+ 1098 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/request_id.rb
+ 1099 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/railties-4.1.8/lib/rails/rack/logger.rb
+ 1100 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/show_exceptions.rb
+ 1101 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/public_exceptions.rb
+ 1102 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/routing/inspector.rb
+ 1103 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/debug_exceptions.rb
+ 1104 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/remote_ip.rb
+ 1105 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/callbacks.rb
+ 1106 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/request/session.rb
+ 1107 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/session/abstract_store.rb
+ 1108 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/session/cookie.rb
+ 1109 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/session/cookie_store.rb
+ 1110 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/flash.rb
+ 1111 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/params_parser.rb
+ 1112 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/head.rb
+ 1113 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/conditionalget.rb
+ 1114 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/rack-1.5.2/lib/rack/etag.rb
+ 1115 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/i18n-0.7.0/lib/i18n/backend.rb
+ 1116 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/i18n-0.7.0/lib/i18n/core_ext/hash.rb
+ 1117 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/i18n-0.7.0/lib/i18n/core_ext/kernel/suppress_warnings.rb
+ 1118 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/i18n-0.7.0/lib/i18n/backend/transliterator.rb
+ 1119 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/i18n-0.7.0/lib/i18n/backend/base.rb
+ 1120 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/i18n-0.7.0/lib/i18n/backend/simple.rb
+ 1121 /Users/mabdeljalil/.rubies/ruby-2.1.3/lib/ruby/2.1.0/net/smtp.rb
+ 1122 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mime-types-2.4.3/lib/mime.rb
+ 1123 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mime-types-2.4.3/lib/mime/type.rb
+ 1124 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mime-types-2.4.3/lib/mime/types/cache.rb
+ 1125 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mime-types-2.4.3/lib/mime/types/loader_path.rb
+ 1126 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mime-types-2.4.3/lib/mime/types/loader.rb
+ 1127 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mime-types-2.4.3/lib/mime/types.rb
+ 1128 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/version_specific/ruby_1_9.rb
+ 1129 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/version.rb
+ 1130 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/core_extensions/nil.rb
+ 1131 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/core_extensions/object.rb
+ 1132 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/core_extensions/string.rb
+ 1133 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/indifferent_hash.rb
+ 1134 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/constants.rb
+ 1135 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/utilities.rb
+ 1136 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/configuration.rb
+ 1137 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/network/retriever_methods/base.rb
+ 1138 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/network.rb
+ 1139 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/message.rb
+ 1140 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/part.rb
+ 1141 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/header.rb
+ 1142 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/parts_list.rb
+ 1143 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/attachments_list.rb
+ 1144 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/body.rb
+ 1145 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields.rb
+ 1146 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/common/address_container.rb
+ 1147 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/common/common_address.rb
+ 1148 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/common/common_field.rb
+ 1149 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/structured_field.rb
+ 1150 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/to_field.rb
+ 1151 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/cc_field.rb
+ 1152 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/bcc_field.rb
+ 1153 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/common/common_message_id.rb
+ 1154 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/message_id_field.rb
+ 1155 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/in_reply_to_field.rb
+ 1156 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/references_field.rb
+ 1157 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/unstructured_field.rb
+ 1158 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/subject_field.rb
+ 1159 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/comments_field.rb
+ 1160 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/keywords_field.rb
+ 1161 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/common/common_date.rb
+ 1162 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/date_field.rb
+ 1163 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/from_field.rb
+ 1164 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/sender_field.rb
+ 1165 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/reply_to_field.rb
+ 1166 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/resent_date_field.rb
+ 1167 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/resent_from_field.rb
+ 1168 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/resent_sender_field.rb
+ 1169 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/resent_to_field.rb
+ 1170 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/resent_cc_field.rb
+ 1171 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/resent_bcc_field.rb
+ 1172 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/resent_message_id_field.rb
+ 1173 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/return_path_field.rb
+ 1174 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/received_field.rb
+ 1175 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/mime_version_field.rb
+ 1176 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/content_transfer_encoding_field.rb
+ 1177 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/content_description_field.rb
+ 1178 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/common/parameter_hash.rb
+ 1179 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/content_disposition_field.rb
+ 1180 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/content_type_field.rb
+ 1181 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/content_id_field.rb
+ 1182 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/fields/content_location_field.rb
+ 1183 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/field.rb
+ 1184 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/field_list.rb
+ 1185 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/envelope.rb
+ 1186 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/elements.rb
+ 1187 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/encodings.rb
+ 1188 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/encodings/transfer_encoding.rb
+ 1189 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/encodings/binary.rb
+ 1190 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/encodings/8bit.rb
+ 1191 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/encodings/7bit.rb
+ 1192 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/encodings/base64.rb
+ 1193 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/encodings/quoted_printable.rb
+ 1194 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/encodings/unix_to_unix.rb
+ 1195 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/matchers/has_sent_mail.rb
+ 1196 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/mail.rb
+ 1197 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail.rb
+ 1198 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionmailer-4.1.8/lib/action_mailer/collector.rb
+ 1199 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionmailer-4.1.8/lib/action_mailer/log_subscriber.rb
+ 1200 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/check_delivery_params.rb
+ 1201 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/network/delivery_methods/test_mailer.rb
+ 1202 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionmailer-4.1.8/lib/action_mailer/delivery_methods.rb
+ 1203 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/network/delivery_methods/smtp.rb
+ 1204 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/network/delivery_methods/file_delivery.rb
+ 1205 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/mail-2.6.3/lib/mail/network/delivery_methods/sendmail.rb
+ 1206 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionmailer-4.1.8/lib/action_mailer/preview.rb
+ 1207 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionmailer-4.1.8/lib/action_mailer/mail_helper.rb
+ 1208 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/actionmailer-4.1.8/lib/action_mailer/base.rb
+ 1209 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/sprockets-2.12.3/lib/sprockets/manifest.rb
+ 1210 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/failure_app.rb
+ 1211 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/relation/finder_methods.rb
+ 1212 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/relation/calculations.rb
+ 1213 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/relation/merger.rb
+ 1214 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/relation/spawn_methods.rb
+ 1215 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/relation/query_methods.rb
+ 1216 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/relation/batches.rb
+ 1217 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/relation.rb
+ 1218 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/associations/collection_proxy.rb
+ 1219 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/activerecord-4.1.8/lib/active_record/association_relation.rb
+ 1220 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/strategies/base.rb
+ 1221 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/strategies/authenticatable.rb
+ 1222 /Users/mabdeljalil/.gem/ruby/2.1.3/gems/devise-3.4.1/lib/devise/strategies/database_authenticatable.rb
+
+[NOTE]
+You may have encountered a bug in the Ruby interpreter or extension libraries.
+Bug reports are welcome.
+Don't forget to include the above Crash Report log file.
+For details: http://www.ruby-lang.org/bugreport.html
+

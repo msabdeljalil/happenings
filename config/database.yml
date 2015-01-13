@@ -1,0 +1,20 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: hannenin_development
+  pool: 5
+  reaping_frequency: 10
+  username: mabdeljalil
+  password:
+
+test: &test
+  adapter: postgresql
+  encoding: unicode
+  database: hannenin_test
+  pool: 5
+  reaping_frequency: 10
+  username: mabdeljalil
+  password:
+
+cucumber:
+  <<: *test

@@ -1,15 +1,21 @@
 Rails.application.routes.draw do
-  resources :events
+
+  root 'static_pages#index'
+
+  resources :events do
+    get    'attendances/:id' => 'attendances#add_attendance', as: :add_attendance
+    delete 'attendances/:id' => 'attendances#destroy',        as: :remove_attendance
+  end
 
   devise_for :users
+  get 'users/:id' => 'users#show', as: :profile
+  get 'users/:id/export_calendar' => 'users#print_calendar', as: :print_calendar
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'static_pages#index'
-
-  get 'static_pages/signup' => 'static_pages#signup', as: :signup
-  get 'static_pages/login' => 'static_pages#login', as: :login
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

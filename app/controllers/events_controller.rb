@@ -12,6 +12,18 @@ class EventsController < ApplicationController
     respond_with(@event)
   end
 
+  def show2
+    respond_to do |wants|
+      wants.html
+      wants.ics do
+        calendar = Icalendar::Calendar.new
+        calendar.add_event(@event.to_ics)
+        calendar.publish
+        render :text => calendar.to_ical
+      end
+    end
+  end
+
   def new
     @event = Event.new
     respond_with(@event)
@@ -42,6 +54,6 @@ class EventsController < ApplicationController
     end
 
     def event_params
-      params.require(:event).permit(:name, :runt_time, :description, :venue_id, :style, :price, :box_office_num, :tickets_url)
+      params.require(:event).permit(:name, :run_time, :description, :venue_id, :style, :price, :box_office_num, :tickets_url)
     end
 end

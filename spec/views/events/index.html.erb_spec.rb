@@ -5,7 +5,7 @@ RSpec.describe "events/index", :type => :view do
     assign(:events, [
       Event.create!(
         :name => "Name",
-        :runt_time => "Runt Time",
+        :run_time => "Run Time",
         :description => "MyText",
         :venue_id => 1,
         :style => "Style",
@@ -15,7 +15,7 @@ RSpec.describe "events/index", :type => :view do
       ),
       Event.create!(
         :name => "Name",
-        :runt_time => "Runt Time",
+        :run_time => "Run Time",
         :description => "MyText",
         :venue_id => 1,
         :style => "Style",
@@ -29,7 +29,7 @@ RSpec.describe "events/index", :type => :view do
   it "renders a list of events" do
     render
     assert_select "tr>td", :text => "Name".to_s, :count => 2
-    assert_select "tr>td", :text => "Runt Time".to_s, :count => 2
+    assert_select "tr>td", :text => "Run Time".to_s, :count => 2
     assert_select "tr>td", :text => "MyText".to_s, :count => 2
     assert_select "tr>td", :text => 1.to_s, :count => 2
     assert_select "tr>td", :text => "Style".to_s, :count => 2

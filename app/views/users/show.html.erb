@@ -1,0 +1,20 @@
+<h2>Hey there, <%= @user.email %></h2>
+<p>
+	Here's a list of all the events you've added to your calendar. 
+	Adjust as you see fit, and when you're done, you can export them 
+	to a .ical file through a link at the bottom.
+</p>
+<br>
+
+<table>
+	<% @attds.each do |atd| %>
+	<tr>
+		<td><%= link_to("#{atd.event.name}", event_path(atd.event) )%></td>
+		<td><%= time_tag(atd.performance_date.dtstart, format: '%B %d, %l:%M %p') %></td>
+    	<td><%= link_to 'Remove', event_remove_attendance_path(atd.event, atd), method: :delete, 
+    			data: { confirm: 'Are you sure?' } %></td>
+	</tr>
+	<% end %>
+</table>
+
+<%= link_to "Export Calendar", :controller => 'users', :action => :print_calendar, :format => :ics %> 

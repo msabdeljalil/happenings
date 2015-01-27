@@ -1,7 +1,7 @@
 FactoryGirl.define do
   factory :event do
     name "MyString"
-runt_time "MyString"
+run_time "MyString"
 description "MyText"
 venue_id 1
 style "MyString"

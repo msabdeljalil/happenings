@@ -1,44 +1,49 @@
-<p id="notice"><%= notice %></p>
+<h1>
+  <strong><%= @event.name %></strong>
+</h1>
+
+<h5>
+  <%= @event.venue %>
+</h5>
 
 <p>
-  <strong>Name:</strong>
-  <%= @event.name %>
-</p>
-
-<p>
-  <strong>Runt time:</strong>
-  <%= @event.runt_time %>
-</p>
-
-<p>
-  <strong>Description:</strong>
   <%= @event.description %>
 </p>
 
-<p>
-  <strong>Venue:</strong>
-  <%= @event.venue_id %>
-</p>
+<table>
+  <tr>
+    <td><strong>Style:</strong></td>
+    <td><%= @event.style %></td>
+  </tr>
 
-<p>
-  <strong>Style:</strong>
-  <%= @event.style %>
-</p>
+  <tr>
+    <td><strong>Run Time:</strong></td>
+    <td><%= @event.run_time %></td>
+  </tr>
 
-<p>
-  <strong>Price:</strong>
-  <%= @event.price %>
-</p>
+  <tr>
+    <td><strong>Price:</strong></td>
+    <td><%= @event.price %></td>
+  </tr>
 
-<p>
-  <strong>Box office num:</strong>
-  <%= @event.box_office_num %>
-</p>
+  <tr>
+    <td><strong>Box office num:</strong></td>
+    <td><%= @event.box_office_num %></td>
+  </tr>
 
-<p>
-  <strong>Tickets url:</strong>
-  <%= @event.tickets_url %>
-</p>
+  <tr>
+    <td><strong>Tickets url:</strong></td>
+    <td><%= @event.tickets_url %></td>
+  </tr>
+</table>
+
+<br/>
+
+<%= div_for(@event.performance_dates.each) do |perf| %>
+<!-- TODO: Adjust for new Perf_date Migration with t.Datetime rather than t.time-->
+  <td><%= time_tag(perf.dtstart, format: '%B %d, %l:%M %p') %></td>
+  <%= link_to("Add to Calendar", event_add_attendance_path(@event, perf), class: "AddAttendance", remote: true) %>
+ <% end %>
 
 <%= link_to 'Edit', edit_event_path(@event) %> |
 <%= link_to 'Back', events_path %>
